@@ -1,6 +1,6 @@
 # Status Api 
 
-A Python Api Which Fetchs Information Like **Ram** **Disk** **Cpu** Usages From A Vps(Virtual Private Server) Or Dedicated Servers
+A Python API that fetches information like RAM, Disk, CPU, etc. from A VPS (Virtual Private Server) or Dedicated Server
 
 ## Table of Contents
 
@@ -60,8 +60,8 @@ A Python Api Which Fetchs Information Like **Ram** **Disk** **Cpu** Usages From 
 
 ## Routes
 
-- **POST /api/post/stats:** : Post the system information.
-- **GET /api/get/stats:** : Get the system information.
+- **POST /api/post/stats:** : Posts the system information.
+- **GET /api/get/stats:** : Gets the system information.
 
 ## License
 
