@@ -1,0 +1,27 @@
+{
+
+  "web": {
+    "port": 3000
+  },
+
+  "nodes": [
+    {
+      "name": "Node 1",
+      "ssh": {
+        "host": "SERVER_IP_ADDRESS",
+        "port": 22,
+        "username": "SERVER_USER_NAME",
+        "password": "SERVER_PASSWORD"
+      }
+    },
+    {
+      "name": "Node 2",
+      "ssh": {
+        "host": "SERVER_IP_ADDRESS",
+        "port": 22,
+        "username": "SERVER_USER_NAME",
+        "password": "SERVER_PASSWORD"
+      }
+    }
+  ]
+}
