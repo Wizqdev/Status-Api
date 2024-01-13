@@ -1,5 +1,5 @@
 from flask import jsonify
-import json  # Add this line to import the json module
+import json
 from Src.Stats import fetch_server_stats
 
 def get_stats():
