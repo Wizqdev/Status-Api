@@ -5,11 +5,9 @@ import json
 
 app = Flask(__name__)
 
-# Load configuration from file
 with open('config.json') as config_file:
     config = json.load(config_file)
 
-# Get the web port from the config
 web_port = config.get('web', {}).get('port')
 
 @app.route('/api/post/stats', methods=['POST'])
